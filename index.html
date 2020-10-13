@@ -4,86 +4,43 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
   <meta charset="utf-8">
-  <title>Intention Timer</title>
+  <title>array.concat()</title>
 </head>
 
 <body>
   <header>
-    <h1>INTENTION TIMER</h1>
+    <h1>array.concat()</h1>
   </header>
   <main>
-    <section class="new-activity-section">
-      <div class="new-activity-title title">
-        New Activity
+    <section>
+      <p id="description">
+        The <span class="strong"><strong>.concat()</strong></span> method is used to merge or combine two (or more!) arrays, and will do so in the order specified by the method declaration. <br>
+        ​
+        For example: <br>
+        ​<br>
+        ​	const array1 = [ 0, 1, 1, 2, 3 ];<br>
+        ​<br>
+        ​	const array2 = [ 5, 8, 13, 21 ];<br>
+        ​<br>
+        ​	const array3 = [ 34, 55 ];<br>
+        ​<br>
+        ​	const array4 = array1<span class="strong"><strong>.concat</strong></span>(array2, array3)<br>
+        ​<br>
+        console.log( array4 );<br>
+        ​<br>
+        //returns [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ]<br>
+        ​<br>
+        <span class="strong"><strong>.concat()</strong></span> does NOT mutate the original array.<br>
+        It DOES return a single NEW array <br>     
+      </p>
+    </section><br>
+    <section>
+        <div>
+        <button onclick="document.location='https://repl.it/@kncaputo/arrayconcat-examples'">.concat() examples</button>
       </div>
-      <section class="body">
-        <div class="categories">Select a category:
-          <div class="category-names">
-            <div class="category study" id="">
-              <img class="study-icon" src="assets/study.svg">
-              <img class="study-icon-active hidden" src="assets/study-active.svg">
-              Study
-            </div>
-            <div class="category meditate" id="">
-              <img class="meditate-icon" src="assets/meditate.svg">
-              <img class="meditate-icon-active hidden" src="assets/meditate-active.svg">
-              Meditate
-            </div>
-            <div class="category exercise" id="">
-              <img class="exercise-icon" src="assets/exercise.svg">
-              <img class="exercise-icon-active hidden" src="assets/exercise-active.svg">
-              Exercise
-            </div>
-          </div>
-          <p class="category-warning warning hidden"><img src="assets/warning.svg"> A category is required.</p>
-          <form>
-            <label for="user-input">What would you like to accomplish during this time?</label><br>
-            <input class="input" type="text" name="user-input" value=""><br>
-            <p class="description-warning warning hidden"><img src="assets/warning.svg"> A description is required.</p>
-            <section class="user-time">
-              <section class="user-minutes">
-                <label for="user-minutes">Minutes</label>
-                <input class="minutes" type="text" name="user-minutes" value=""><br>
-                <p class="minutes-warning warning hidden"><img src="assets/warning.svg"> A number is required.</p>
-              </section>
-              <section class="user-seconds">
-                <label for="user-seconds">Seconds</label>
-                <input type="text" class="seconds" name="user-seconds" value=""><br>
-                <p class="seconds-warning warning hidden"><img src="assets/warning.svg"> A number between 0 and 59 is required.</p>
-              </section>
-            </section>
-          </form>
-          <div class="start-section">
-            <button class="start-activity-button">START ACTIVITY</button>
-          </div>
-        </div>
-      </section>
-    </section>
-    <section class="current-activity hidden">
-      <div class="current-activity-title title">Current Activity</div>
-      <section class="body-timer">
-        <section class="current-activity-display">
-        </section>
-        <div class="start-complete">
-          <button class="start-timer" id="">START</button>
-        </div>
-        <button class="log-activity-button hidden">LOG ACTIVITY</button>
-      </section>
-    </section>
-    <section class="completed-activity hidden">
-      <div class="completed-activity-title title">Completed Activity</div>
-      <section class="completed-activity-display">
-        <button class="create-activity-button">CREATE A NEW ACTIVITY</button>
-      </section>
-    </section>
-    <section class="past-activities-section">
-      <div class="past-activities-title title">
-        Past Activities
+      <div>
+        <button onclick="document.location='https://repl.it/@kncaputo/arrayconcat-practice#index.js'">.concat() practice</button>
       </div>
-      <section class="logged-activities">
-        <p class="no-activities-message">You haven't logged any activities yet.<br> Complete the form to the left to get started!</p>
-      </section>
-    </section>
     </section>
   </main>
   <script type="text/javascript" src="activity.js"></script>
