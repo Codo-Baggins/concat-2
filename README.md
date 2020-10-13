@@ -7,7 +7,7 @@
 -   [Kara Caputo]()
 -   [Allison Dietz]()
     ### Page Link ::
-- [Click here] (https://codo-baggins.github.io/concat/)
+-   https://codo-baggins.github.io/concat/
     ## Set-up ::
 -   Clone down repo to personal computer
 -   In terminal, run command "open index.html" to interact with app.
