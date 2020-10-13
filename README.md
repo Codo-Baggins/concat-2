@@ -6,11 +6,11 @@
 -   [Alyssa Bull]()
 -   [Kara Caputo]()
 -   [Allison Dietz]()
-    ### Project Links ::
+    ### Page Link ::
 
     ## Set-up ::
 -   Clone down repo to personal computer
 -   In terminal, run command "open index.html" to interact with app.
-    ## Overview & Learning Goals :
+    ## Overview & Learning Goals ::
     Showcase our understanding of the array mutator method "concat()"
 
