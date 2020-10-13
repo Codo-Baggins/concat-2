@@ -4,7 +4,8 @@
 
 -   [Joe Lopez](https://github.com/Codo-Baggins)
 -   [Alyssa Bull]()
--   [Kara Caputo] ()
+-   [Kara Caputo]()
+-   [Allison Dietz]()
     ### Project Links ::
 
     ## Set-up ::
